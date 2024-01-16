@@ -1,12 +1,5 @@
 # Custom Length Product Listings for WooCommerce
 
-**Contributors:** Deejpotter
-**Tags:** woocommerce, custom lengths, product customization, variable products  
-**Requires at least:** 5.0  
-**Tested up to:** 6.4.2  
-**Requires PHP:** 7.2  
-**License:** GPLv2 or later
-
 Customize your WooCommerce products with tailored length options for your customers.
 
 ## Description

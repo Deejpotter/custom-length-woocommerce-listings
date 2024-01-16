@@ -1,19 +1,24 @@
 <?php
 
-namespace SW_WAPF {
+namespace CLWL {
 
-    use SW_WAPF\Includes\Classes\l10n;
-    use SW_WAPF\Includes\Controllers\Admin_Controller;
-    use SW_WAPF\Includes\Controllers\Public_Controller;
+    // Specify that we're using the L10n, Admin_Controller and Public_Controller classes.
+    use CLWL\Includes\Classes\L10n;
+    use CLWL\Includes\Controllers\Admin_Controller;
+    use CLWL\Includes\Controllers\Public_Controller;
 
+    // Prevent direct access to the file.
     if (!defined('ABSPATH')) {
         die;
     }
 
-    class WAPF
+    /**
+     * Main plugin class for Custom Length WooCommerce Listings.
+     * Handles initialization and configuration of the plugin's core functionalities.
+     */
+    class Main
     {
-
-
+        // The plugin's settings, we don't have any yet.
         private $settings = [];
 
         public function __construct()
